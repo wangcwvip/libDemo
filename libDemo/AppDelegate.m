@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CWViewController.h"
+#import "CWNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    CWViewController *viewController = [[CWViewController alloc] init];
+    viewController.title = @"Home";
+    
+    CWNavigationController *naviController = [[CWNavigationController alloc] initWithRootViewController:viewController];
+//    naviController.navigationBar.barStyle = UIBarStyleBlack;
+//    naviController.navigationBar.translucent = NO;
+//    naviController.extendedLayoutIncludesOpaqueBars = NO;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = naviController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
