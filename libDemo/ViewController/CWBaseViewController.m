@@ -1,22 +1,23 @@
 //
-//  CWTabBarViewController.m
+//  CWBaseViewController.m
 //  libDemo
 //
 //  Created by wangcw on 2017/1/23.
 //  Copyright © 2017年 wangcw. All rights reserved.
 //
 
-#import "CWTabBarViewController.h"
+#import "CWBaseViewController.h"
 
-@interface CWTabBarViewController ()
+@interface CWBaseViewController ()
 
 @end
 
-@implementation CWTabBarViewController
+@implementation CWBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {

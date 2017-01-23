@@ -1,5 +1,5 @@
 //
-//  CWTabBarViewController.h
+//  CWBaseViewController.h
 //  libDemo
 //
 //  Created by wangcw on 2017/1/23.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CWTabBarViewController : UITabBarController
+@interface CWBaseViewController : UIViewController
 
 @end

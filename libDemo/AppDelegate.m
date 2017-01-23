@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CWViewController.h"
-#import "CWNavigationController.h"
+#import "CWBaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,7 @@
     CWViewController *viewController = [[CWViewController alloc] init];
     viewController.title = @"Home";
     
-    CWNavigationController *naviController = [[CWNavigationController alloc] initWithRootViewController:viewController];
+    CWBaseNavigationController *naviController = [[CWBaseNavigationController alloc] initWithRootViewController:viewController];
 //    naviController.navigationBar.barStyle = UIBarStyleBlack;
 //    naviController.navigationBar.translucent = NO;
 //    naviController.extendedLayoutIncludesOpaqueBars = NO;

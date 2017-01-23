@@ -6,8 +6,8 @@
 //  Copyright © 2017年 wangcw. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "CWBaseViewController.h"
 
-@interface CWViewController : BaseViewController
+@interface CWViewController : CWBaseViewController
 
 @end

@@ -1,5 +1,5 @@
 //
-//  CWNavigationController.h
+//  CWBaseNavigationController.h
 //  libDemo
 //
 //  Created by wangcw on 2017/1/23.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CWNavigationController : UINavigationController
+@interface CWBaseNavigationController : UINavigationController
 
 @end

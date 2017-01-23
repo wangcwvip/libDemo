@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D10662C1E35A4A0002812EF /* CWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10662B1E35A4A0002812EF /* CWNavigationController.m */; };
-		2D10662F1E35A51A002812EF /* CWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10662E1E35A51A002812EF /* CWTabBarViewController.m */; };
-		2D1066321E35A55E002812EF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1066311E35A55E002812EF /* BaseViewController.m */; };
-		2D1066351E35A571002812EF /* CWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1066341E35A571002812EF /* CWViewController.m */; };
+		2D10662C1E35A4A0002812EF /* CWBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10662B1E35A4A0002812EF /* CWBaseNavigationController.m */; };
+		2D10662F1E35A51A002812EF /* CWBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10662E1E35A51A002812EF /* CWBaseTabBarViewController.m */; };
+		2D1066321E35A55E002812EF /* CWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1066311E35A55E002812EF /* CWBaseViewController.m */; };
+		2D1066381E35C7DE002812EF /* CWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1066371E35C7DE002812EF /* CWViewController.m */; };
 		2D69FD5A1E359AAC00051DB1 /* CWEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FD571E359AAC00051DB1 /* CWEncode.m */; };
 		2D69FD5B1E359AAC00051DB1 /* CWEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FD591E359AAC00051DB1 /* CWEncrypt.m */; };
 		2D69FD631E359AF800051DB1 /* CWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FD621E359AF800051DB1 /* CWUtils.m */; };
@@ -23,14 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D10662A1E35A4A0002812EF /* CWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWNavigationController.h; sourceTree = "<group>"; };
-		2D10662B1E35A4A0002812EF /* CWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWNavigationController.m; sourceTree = "<group>"; };
-		2D10662D1E35A51A002812EF /* CWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTabBarViewController.h; sourceTree = "<group>"; };
-		2D10662E1E35A51A002812EF /* CWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTabBarViewController.m; sourceTree = "<group>"; };
-		2D1066301E35A55E002812EF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		2D1066311E35A55E002812EF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		2D1066331E35A571002812EF /* CWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWViewController.h; sourceTree = "<group>"; };
-		2D1066341E35A571002812EF /* CWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWViewController.m; sourceTree = "<group>"; };
+		2D10662A1E35A4A0002812EF /* CWBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWBaseNavigationController.h; sourceTree = "<group>"; };
+		2D10662B1E35A4A0002812EF /* CWBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWBaseNavigationController.m; sourceTree = "<group>"; };
+		2D10662D1E35A51A002812EF /* CWBaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWBaseTabBarViewController.h; sourceTree = "<group>"; };
+		2D10662E1E35A51A002812EF /* CWBaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWBaseTabBarViewController.m; sourceTree = "<group>"; };
+		2D1066301E35A55E002812EF /* CWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWBaseViewController.h; sourceTree = "<group>"; };
+		2D1066311E35A55E002812EF /* CWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWBaseViewController.m; sourceTree = "<group>"; };
+		2D1066361E35C7DE002812EF /* CWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWViewController.h; sourceTree = "<group>"; };
+		2D1066371E35C7DE002812EF /* CWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWViewController.m; sourceTree = "<group>"; };
 		2D69FD561E359AAC00051DB1 /* CWEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWEncode.h; sourceTree = "<group>"; };
 		2D69FD571E359AAC00051DB1 /* CWEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWEncode.m; sourceTree = "<group>"; };
 		2D69FD581E359AAC00051DB1 /* CWEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWEncrypt.h; sourceTree = "<group>"; };
@@ -64,10 +64,8 @@
 		2D1066271E35A407002812EF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				2D1066331E35A571002812EF /* CWViewController.h */,
-				2D1066341E35A571002812EF /* CWViewController.m */,
-				2D1066301E35A55E002812EF /* BaseViewController.h */,
-				2D1066311E35A55E002812EF /* BaseViewController.m */,
+				2D1066301E35A55E002812EF /* CWBaseViewController.h */,
+				2D1066311E35A55E002812EF /* CWBaseViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -82,10 +80,10 @@
 		2D1066291E35A464002812EF /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				2D10662A1E35A4A0002812EF /* CWNavigationController.h */,
-				2D10662B1E35A4A0002812EF /* CWNavigationController.m */,
-				2D10662D1E35A51A002812EF /* CWTabBarViewController.h */,
-				2D10662E1E35A51A002812EF /* CWTabBarViewController.m */,
+				2D10662A1E35A4A0002812EF /* CWBaseNavigationController.h */,
+				2D10662B1E35A4A0002812EF /* CWBaseNavigationController.m */,
+				2D10662D1E35A51A002812EF /* CWBaseTabBarViewController.h */,
+				2D10662E1E35A51A002812EF /* CWBaseTabBarViewController.m */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -147,6 +145,8 @@
 		2D6F2F3E1E31A02A004A1182 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				2D1066361E35C7DE002812EF /* CWViewController.h */,
+				2D1066371E35C7DE002812EF /* CWViewController.m */,
 				2D6F2F3F1E31A03F004A1182 /* CWView.h */,
 				2D6F2F401E31A03F004A1182 /* CWView.m */,
 			);
@@ -266,16 +266,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D1066351E35A571002812EF /* CWViewController.m in Sources */,
-				2D10662F1E35A51A002812EF /* CWTabBarViewController.m in Sources */,
-				2D1066321E35A55E002812EF /* BaseViewController.m in Sources */,
+				2D1066381E35C7DE002812EF /* CWViewController.m in Sources */,
+				2D10662F1E35A51A002812EF /* CWBaseTabBarViewController.m in Sources */,
+				2D1066321E35A55E002812EF /* CWBaseViewController.m in Sources */,
 				2D69FD5A1E359AAC00051DB1 /* CWEncode.m in Sources */,
 				2D818A731E2871DB00C165F0 /* AppDelegate.m in Sources */,
 				2D69FD5B1E359AAC00051DB1 /* CWEncrypt.m in Sources */,
 				2D69FD691E359B8100051DB1 /* CWPathManager.m in Sources */,
 				2D818A701E2871DB00C165F0 /* main.m in Sources */,
 				2D6F2F411E31A03F004A1182 /* CWView.m in Sources */,
-				2D10662C1E35A4A0002812EF /* CWNavigationController.m in Sources */,
+				2D10662C1E35A4A0002812EF /* CWBaseNavigationController.m in Sources */,
 				2D69FD631E359AF800051DB1 /* CWUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

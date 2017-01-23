@@ -1,18 +1,18 @@
 //
-//  CWNavigationController.m
+//  CWBaseNavigationController.m
 //  libDemo
 //
 //  Created by wangcw on 2017/1/23.
 //  Copyright © 2017年 wangcw. All rights reserved.
 //
 
-#import "CWNavigationController.h"
+#import "CWBaseNavigationController.h"
 
-@interface CWNavigationController ()
+@interface CWBaseNavigationController ()
 
 @end
 
-@implementation CWNavigationController
+@implementation CWBaseNavigationController
 
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController
 {

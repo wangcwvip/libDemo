@@ -1,5 +1,5 @@
 //
-//  BaseViewController.h
+//  CWBaseTabBarViewController.h
 //  libDemo
 //
 //  Created by wangcw on 2017/1/23.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseViewController : UIViewController
+@interface CWBaseTabBarViewController : UITabBarController
 
 @end
